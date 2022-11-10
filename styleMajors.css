@@ -1,3 +1,16 @@
 body {
   display: grid;
+  margin-left: 20px;
+  grid-template-columns: 1fr 1fr;
 }
+
+#header {
+  font-size: 2rem;
+  grid-column-start: span 2;
+}
+
+img {
+  width: 505px;
+  height: 336px;
+}
+
