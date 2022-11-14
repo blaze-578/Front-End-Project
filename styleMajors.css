@@ -18,6 +18,9 @@
   height: 200px;
   font-size: 8rem;
 }
+.nav-bar {
+  font-size: 2rem;
+}
 
 #nav-bar {
   grid-template-columns: span 3;;
