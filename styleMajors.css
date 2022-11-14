@@ -1,17 +1,18 @@
 body {
+  position: absolute;
   display: grid;
-  margin: 30px;
+  margin-left: auto;
+  margin-right: auto;
   grid-template-columns: 1fr 1fr 1fr;
   border: 2px;
-}
-
-#header {
-  font-size: 2rem;
-  grid-column-start: span 3;
 }
 
 img {
   width: 505px;
   height: 336px;
+}
+#header {
+  font-size: 2rem;
+  grid-column-start: span 3;
 }
 
