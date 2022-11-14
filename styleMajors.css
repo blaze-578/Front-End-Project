@@ -1,18 +1,24 @@
-body {
+#majors {
   position: absolute;
   display: grid;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 100px;
   grid-template-columns: 1fr 1fr 1fr;
   border: 2px;
 }
 
-img {
-  width: 505px;
-  height: 336px;
-}
-#header {
-  font-size: 2rem;
-  grid-column-start: span 3;
+#logo {
+  height: 250px;
+  width: 250px;
 }
 
+#header {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 8rem;
+}
+
+#nav-bar {
+  grid-template-columns: span 3;;
+}
