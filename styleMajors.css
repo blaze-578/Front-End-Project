@@ -1,8 +1,8 @@
 #majors
 {
-  position:absolute;
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(6,1fr);
   border: 2px;
 }
 
@@ -12,6 +12,7 @@
   margin-top:10px;
   margin-bottom:10px;
 }
+
 img {
   width: 80%;
   height: 80%;

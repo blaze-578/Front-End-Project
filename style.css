@@ -26,3 +26,10 @@
   padding:5px;
   font-size:1.5rem;
 }
+
+.footer
+{
+  padding:20px;
+  display:flex;
+  justify-content: center;
+}
