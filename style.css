@@ -1,1 +1,26 @@
-/* general styling for all four pages (such as nav bar) */
+.logo
+{
+  height:200px;
+  width:200px;
+  float:left;
+  margin-left:50px;
+}
+
+.title
+{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:200px;
+  font-size:8rem;
+}
+
+.navbar
+{
+  display:flex;
+  justify-content:space-evenly;
+  flex-direction: row;
+  gap:20px;
+  padding:5px;
+  font-size:1.5rem;
+}
