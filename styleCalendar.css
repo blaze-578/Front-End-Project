@@ -20,3 +20,8 @@ table, th, td {
   font-weight: bold;
   text-align:center;
 }
+
+body{
+  margin-top: 25px;
+  background-color:#A9BCD0;
+}
