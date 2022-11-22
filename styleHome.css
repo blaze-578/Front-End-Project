@@ -55,6 +55,11 @@
     height:200px;
   }
 
+  #gallery > div
+  {
+    margin-bottom:50px;
+  }
+  
   #form
   {
     padding:10px;
