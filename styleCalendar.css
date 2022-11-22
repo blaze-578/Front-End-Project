@@ -1,26 +1,18 @@
-table
-{
-  text-align:left;
-  width:100%;
-  margin:50px;
+#Calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 1fr repeat(5, 1fr 20fr);
 }
 
-tr{
+/*tr{
   height:150px;
   width:200px;
-}
-
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-
-#week > th
-{
-  font-weight: bold;
-  text-align:center;
-}
+}*/
 
 body{
   margin-top: 25px;
+}
+
+#dates > div {
+  grid-column-start: span 1;
 }
