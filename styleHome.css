@@ -42,7 +42,7 @@
 {
   #gallery
   {
-    display:grad;
+    display:grid;
     grid-template-columns:1fr;
     grid-template-rows:repeat(5,200px);
     justify-items:center;
