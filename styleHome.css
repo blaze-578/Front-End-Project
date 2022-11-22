@@ -1,0 +1,72 @@
+/* Kelly did the styling on this */
+@media screen and (min-width:401px)
+{
+  #gallery
+  {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows:repeat(3,500px);
+    justify-items:center;
+    gap:30px;
+    margin-top:50px;
+  }
+
+
+  #tech > img
+  {
+    height:900px;
+  }
+
+  #cats
+  {
+    grid-column-start:2.5;
+    grid-row-start:3;
+  }
+
+  #gym
+  {
+    grid-row-start:3;
+  }
+
+  img
+  {
+    height:400px;
+  }
+
+  #form{
+    padding:25px;
+  }
+}
+
+@media screen and (max-width:400px)
+{
+  #gallery
+  {
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:repeat(5,200px);
+    justify-items:center;
+    gap:5px;
+    margin-top:10px;
+  }
+
+  img
+  {
+    height:200px;
+  }
+
+  #form
+  {
+    padding:10px;
+  }
+}
+
+#form
+{
+  text-align:center;
+}
+
+div > *
+{
+  text-align:center;
+}
