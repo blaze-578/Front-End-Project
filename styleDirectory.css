@@ -1,3 +1,30 @@
 body{
     margin-top: 25px;
 }
+
+#tables {
+    display:grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+table, th, td {
+    padding: 3px;
+    border: 1px solid;
+    border-color: black;
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+tr:hover {background-color: #AFCADF;}
+
+th {
+    background-color: #85ABC6;
+}
+
+td {
+  padding-left: 5px;
+  text-align: left;
+}
