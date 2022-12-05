@@ -3,21 +3,21 @@ body{
 }
 
 @media and (max-width:400px) {
-    #tables {
-        margin-left: 40px;
-        margin-right: 40px;
-        margin-top: 20px;
-    }
+  #tables {
+      margin-left: 40px;
+      margin-right: 40px;
+      margin-top: 20px;
+  }
 }
 
 @media screen and (min-width:401px) {
-    #tables {
-        display:grid;
-        grid-template-columns: 2fr 2fr 2fr 2fr;
-        margin-left: 40px;
-        margin-right: 40px;
-        margin-top: 20px;
-    }
+  #tables {
+    display:grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+  }
 }
 
 table, th, td {
