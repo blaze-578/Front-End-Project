@@ -24,7 +24,7 @@
   {
     margin-top:15px;
     display:flex;
-    justify-content:space-evenly;
+    justify-content:left;
     flex-direction: row;
     gap:20px;
     padding:5px;
