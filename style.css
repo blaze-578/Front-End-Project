@@ -29,20 +29,20 @@
     gap:20px;
     padding:5px;
     font-size:1.5rem;
-    background-color: blue;
+    background-color: black;
   }
 
   .navbar a
   {
     float: left;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
 
   .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #AFCADF;
+  background-color: blue;
   }
 
   .footer
