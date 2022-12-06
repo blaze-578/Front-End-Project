@@ -80,3 +80,22 @@
 body{
   background-color:#A9BCD0;
 }
+
+    justify-content:space-evenly;
+    flex-direction: row;
+    gap:20px;
+    padding:5px;
+    font-size:1rem;
+  }
+
+  .footer
+  {
+    padding:20px;
+    display:flex;
+    justify-content: center;
+  }
+}
+
+body{
+  background-color:#A9BCD0;
+}
