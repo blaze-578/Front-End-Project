@@ -38,11 +38,11 @@
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    
   }
 
   .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: blue;
+    background-color: blue;
   }
 
   .footer
