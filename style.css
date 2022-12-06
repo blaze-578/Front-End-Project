@@ -82,19 +82,19 @@
     gap:20px;
     padding:5px;
     font-size:1rem;
-    background-color: blue;
+    background-color: black;
   }
   .navbar a
   {
     float: left;
-    color: black;
+    color: white;
     text-align: center;
     padding: 7px 8px;
     text-decoration: none;
   }
 
   .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #AFCADF;
+  background-color: blue;
   }
 
   .footer
